@@ -60,7 +60,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>  
             </li>
           ))}
-          <li> <a href="https://drive.google.com/file/d/1DsCkx1kO-DDywnkTTFYCZBNoGxmWVDMs/view?usp=drive_link" 
+          <li> <a href="https://drive.google.com/file/d/1AmTnj7F1X-d_2h5RvlZ6Ej-LSB4sQqTu/view?usp=drive_link" 
           className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank" rel="noreferrer"
           >Resume</a></li>
         </ul>
@@ -93,9 +93,9 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li> <a href="https://drive.google.com/file/d/1DsCkx1kO-DDywnkTTFYCZBNoGxmWVDMs/view?usp=drive_link" 
-          className="text-secondary font-poppins font-medium cursor-pointer text-[16px] " target="_blank" rel="noreferrer"
-          >Resume</a></li>
+              <li> <a href="https://drive.google.com/file/d/1AmTnj7F1X-d_2h5RvlZ6Ej-LSB4sQqTu/view?usp=drive_link" 
+          className="text-secondary font-poppins font-medium cursor-pointer text-[16px] " target="_blank" rel="noreferrer">
+                Resume</a></li>
             </ul>
           </div>
         </div>
