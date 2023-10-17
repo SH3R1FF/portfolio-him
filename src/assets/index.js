@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import dashboard from "./dashboard.png";
 import clime from "./clime.png";
 import summarizer from "./summarizer.png";
+import zenboard from "./zenboard.png";
+import rectify from "./rectify.png";
+import hoobank from "./hoobank.png";
+import visit from "./visit.png";
+
 
 export {
   logo,
@@ -59,4 +64,8 @@ export {
   dashboard,
   clime,
   summarizer,
+  zenboard,
+  rectify,
+  hoobank,
+  visit,
 };

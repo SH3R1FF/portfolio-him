@@ -19,6 +19,9 @@ import {
     clime,
     summarizer,
     threejs,
+    rectify,
+    hoobank,
+    zenboard,
   } from "../assets";
   
   export const navLinks = [
@@ -136,6 +139,7 @@ import {
       ],
       image: dashboard,
       source_code_link: "https://github.com/SH3R1FF/dashboard-sh",
+      link:"https://dashboard-sh.netlify.app",
     },
     {
       name: "Clime",
@@ -157,6 +161,7 @@ import {
       ],
       image: clime,
       source_code_link: "https://github.com/SH3R1FF/clime",
+      link:"https://clime-app.netlify.app",
     },
     {
       name: "Sumz Summarizer",
@@ -178,7 +183,79 @@ import {
       ],
       image: summarizer,
       source_code_link: "https://github.com/SH3R1FF/sumz-ai-summarizer",
+      link:"https://sumz-summarizer.netlify.app/",
     },
+    {
+      name: "Zenboard",
+      description:
+        " Efficient Kanban board website streamlining project management, showcasing intuitive design and organization tools for enhanced productivity and collaboration.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "zustand",
+          color: "green-text-gradient",
+        },
+        // {
+        //   name: "tailwindcss",
+        //   color: "pink-text-gradient",
+        // },
+        {
+          name: "reactdnd",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: zenboard,
+      source_code_link: "https://github.com/SH3R1FF/sumz-ai-summarizer",
+      link:"https://zenboard-sh.netlify.app",
+    },
+    {
+      name: "Hoobank",
+      description:
+        "A robust banking website, highlighting expertise in creating secure, user-friendly financial platforms for seamless transactions and account management ",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "redux",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hoobank,
+      source_code_link: "https://github.com/SH3R1FF/sumz-ai-summarizer",
+      link:"https://hoobank.netlify.app",
+    },
+    {
+      name: "Rectify",
+      description:
+        " A feature-rich text editing website, showcasing expertise in user-friendly platforms for efficient text editing. Harness the power of words with ease. ",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "redux",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rectify,
+      source_code_link: "https://github.com/SH3R1FF/sumz-ai-summarizer",
+      link:"https://rectify-app.netlify.app/",
+    },
+
   ];
   
   export { services, technologies,projects };
